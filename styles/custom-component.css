@@ -1,0 +1,15 @@
+@layer components {
+  .box {
+    @apply bg-green-300;
+  }
+
+  .box:hover {
+    @apply bg-purple-400;
+  }
+
+  @screen tablet {
+    .box {
+      @apply bg-yellow-400;
+    }
+  }
+}
